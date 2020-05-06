@@ -1,0 +1,52 @@
+
+@font-face {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	src: local('../fonts/Barlow Regular'), url('../fonts/Barlow-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 500;
+	src: local('../fonts/Barlow Medium'), url('../fonts/Barlow-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 600;
+	src: local('../fonts/Barlow SemiBold'), url('../fonts/Barlow-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	font-style: normal;
+	font-weight: 400;
+	src: local('../fonts/Barlow Semi Condensed Regular'), url('../fonts/BarlowSemiCondensed-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	font-style: normal;
+	font-weight: 500;
+	src: local('../fonts/Barlow Semi Condensed Medium'), url('../fonts/BarlowSemiCondensed-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	font-style: normal;
+	font-weight: 600;
+	src: local('../fonts/Barlow Semi Condensed SemiBold'), url('../fonts/BarlowSemiCondensed-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lucida-Console';
+    src:url('../fonts/Lucida-Console.ttf.woff') format('woff'),
+        url('../fonts/Lucida-Console.ttf.svg#Lucida-Console') format('svg'),
+        url('../fonts/Lucida-Console.ttf.eot'),
+        url('../fonts/Lucida-Console.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

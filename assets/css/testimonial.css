@@ -1,0 +1,45 @@
+.testimonial .description{
+    font-size: 18px;
+    line-height: 35px;
+}
+.testimonial .pic{
+    border: 2px solid var(--gray);
+    width: 61px;
+    height: 74px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.testimonial > img{
+    box-shadow: 0 0 3px grey;
+}
+.testimonial .testimonial-title{
+    top: -20px;
+    font-family: 'Barlow';
+    line-height: 15px;
+}
+.testimonial .testimonial-title p {
+    font-size: 16px;
+}
+.testimonial .testimonial-title small{
+    color: var(--gray);
+    letter-spacing: .5px;
+}
+.owl-theme .owl-controls .owl-buttons >div {
+    background: transparent;
+    margin: 0;
+    opacity: 1;
+}
+.testimonial_sec .owl-theme .owl-controls {
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-buttons >div:before {
+    color: black;
+}
+.owl-theme .owl-controls .owl-buttons >div:hover:before {
+    color: var(--gray);
+}
+.testimonial_sec .owl-theme .owl-controls .owl-buttons .owl-prev:after {
+    display: none;
+}
