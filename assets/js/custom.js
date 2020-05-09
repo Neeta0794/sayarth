@@ -1,13 +1,12 @@
-
 /*---stickey menu---*/
-$(window).on('scroll',function() {    
-       var scroll = $(window).scrollTop();
-       if (scroll < 600) {
+$(window).on('scroll', function() {
+    var scroll = $(window).scrollTop();
+    if (scroll < 200) {
         $(".navigation").removeClass("sticky");
-       }else{
+    } else {
         $(".navigation").addClass("sticky");
-       }
-}); 
+    }
+});
 
 
 
@@ -83,32 +82,32 @@ $("#vertical-bullets").show().revolution({
 
 /*---Product Owl Slider---*/
 $(".features-curosel").owlCarousel({
-  autoPlay: false, 
-  slideSpeed:2000,
-  items : 4,
-  pagination:false,
-  navigation:true,
-  navigationText:["<i class='flaticon-angle-pointing-to-left'></i>","<i class='flaticon-angle-arrow-pointing-to-right'></i>"],
-  itemsDesktop : [1199,4],
-  itemsDesktopSmall : [979,3],
-  itemsMobile : [767,1],
-  rewindNav : false,
-  lazyLoad : true
+    autoPlay: false,
+    slideSpeed: 2000,
+    items: 4,
+    pagination: false,
+    navigation: true,
+    navigationText: ["<i class='flaticon-angle-pointing-to-left'></i>", "<i class='flaticon-angle-arrow-pointing-to-right'></i>"],
+    itemsDesktop: [1199, 4],
+    itemsDesktopSmall: [979, 3],
+    itemsMobile: [767, 1],
+    rewindNav: false,
+    lazyLoad: true
 });
 
 
 
 /*--- Testimonial Slider---*/
-$(document).ready(function(){
+$(document).ready(function() {
     $("#testimonial-slider").owlCarousel({
-        items:1,
-        itemsDesktop:[1000,1],
-        itemsDesktopSmall:[979,1],
-        itemsTablet:[768,1],
+        items: 1,
+        itemsDesktop: [1000, 1],
+        itemsDesktopSmall: [979, 1],
+        itemsTablet: [768, 1],
         pagination: false,
-        navigation:true,
-        navigationText:["",""],
-        autoPlay:false
+        navigation: true,
+        navigationText: ["", ""],
+        autoPlay: false
     });
 });
 
@@ -116,10 +115,16 @@ $(document).ready(function(){
 
 /*--- Search Bar ---*/
 $('.full_search').on('click', '.search-toggle', function(e) {
-  var selector = $(this).data('selector');
+    var selector = $(this).data('selector');
 
-  $(selector).toggleClass('show').find('.search-input').focus();
-  $(this).toggleClass('active');
+    $(selector).toggleClass('show').find('.search-input').focus();
+    $(this).toggleClass('active');
 
-  e.preventDefault();
+    e.preventDefault();
+});
+
+
+/*--- Sticky Side Bar ---*/
+$(document).ready(function() {
+    var sticky = new Sticky('.sticky');
 });

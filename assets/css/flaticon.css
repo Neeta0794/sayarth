@@ -2,42 +2,98 @@
   	Flaticon icon font: Flaticon
   	Creation date: 24/04/2020 08:15
   	*/
-
-@font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/Flaticon.eot");
-  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/Flaticon.woff2") format("woff2"),
-       url("../fonts/Flaticon.woff") format("woff"),
-       url("../fonts/Flaticon.ttf") format("truetype"),
-       url("../fonts/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
-  }
-}
-
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-font-style: normal;
-}
-
-.flaticon-mail:before { content: "\f100"; }
-.flaticon-heart:before { content: "\f101"; }
-.flaticon-angle-arrow-pointing-to-right:before { content: "\f102"; }
-.flaticon-angle-pointing-to-left:before { content: "\f103"; }
-.flaticon-user:before { content: "\f104"; }
-.flaticon-telephone:before { content: "\f105"; }
-.flaticon-user-1:before { content: "\f106"; }
-.flaticon-form:before { content: "\f107"; }
-.flaticon-cross:before { content: "\f108"; }
-.flaticon-shopping-bags:before { content: "\f109"; }
-.flaticon-magnifying-glass:before { content: "\f10a"; }
-.flaticon-user-2:before { content: "\f10b"; }
-.flaticon-whatsapp:before { content: "\f10c"; }
+	
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.eot");
+	    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff2") format("woff2"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+	
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-style: normal;
+	}
+	
+	.flaticon-mail:before {
+	    content: "\f100";
+	}
+	
+	.flaticon-heart:before {
+	    content: "\f101";
+	}
+	
+	.flaticon-angle-arrow-pointing-to-right:before {
+	    content: "\f102";
+	}
+	
+	.flaticon-angle-pointing-to-left:before {
+	    content: "\f103";
+	}
+	
+	.flaticon-user:before {
+	    content: "\f104";
+	}
+	
+	.flaticon-telephone:before {
+	    content: "\f105";
+	}
+	
+	.flaticon-user-1:before {
+	    content: "\f106";
+	}
+	
+	.flaticon-form:before {
+	    content: "\f107";
+	}
+	
+	.flaticon-cross:before {
+	    content: "\f108";
+	}
+	
+	.flaticon-shopping-bags:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-magnifying-glass:before {
+	    content: "\f10a";
+	}
+	
+	.flaticon-user-2:before {
+	    content: "\f10b";
+	}
+	
+	.flaticon-whatsapp:before {
+	    content: "\f10c";
+	}
+	
+	.flaticon-return:before {
+	    content: "\f10d";
+	}
+	
+	.flaticon-caliper:before {
+	    content: "\f10e";
+	}
+	
+	.flaticon-jewelry:before {
+	    content: "\f10f";
+	}
+	
+	.flaticon-jewelry-1:before {
+	    content: "\f110";
+	}
+	
+	.flaticon-aztec-necklace:before {
+	    content: "\f111";
+	}

@@ -3,7 +3,7 @@
 <section class="breadcrum py-4">
 	<div class="container">
 		<div class="d-flex">
-			<div class="d-inline-flex align-items-center">
+			<div class="d-inline-flex w-100 align-items-center">
 				<h2 class="font-weight-normal">Education</h2>
 			</div>
 			<div class="d-inline-flex w-100 align-items-center">

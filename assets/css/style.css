@@ -83,12 +83,16 @@ p {
     object-fit: cover;
 }
 
+.bg_transparent {
+    background: transparent !important;
+}
+
 .bg_gray {
     background: var(--gray);
 }
 
-.bg_black {
-    background: black;
+.text_black {
+    color: black;
 }
 
 .position_rel {
@@ -141,6 +145,7 @@ p {
 .logo {
     font-family: 'Lucida-Console';
     background: linear-gradient(#dabd90 25%, #8e7a57 55%, #dabd90 80%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 40px;
@@ -365,7 +370,9 @@ footer {
     padding: 40px;
 }
 
-.certi_lab a {
+.certi_lab a,
+.acc_link,
+.acc_link:hover {
     color: #ff3b18;
 }
 
@@ -543,4 +550,118 @@ footer {
 
 .corner_wtsapp:hover .wtsapp {
     background: linear-gradient(#95a6b1, #000000);
+}
+
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    padding: 0 15px;
+}
+
+.sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.faq_content,
+.faq_topic li a.active {
+    background: url(../images/egg-shell.png) fixed;
+}
+
+.faq_topic li a.active,
+.faq_topic li a.active h4 {
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+.faq_topic li a h4 {
+    font-size: 16px;
+}
+
+.faq_content .card-body {
+    background: rgba(149, 166, 177, 0.15);
+}
+
+.faq_content .card-body p {
+    line-height: 30px;
+}
+
+.faq_content .collapsible-link:hover,
+.faq_content .collapsible-link[aria-expanded='true'] {
+    color: black;
+    text-shadow: 0 0 black;
+}
+
+.faq_content .collapsible-link {
+    font-size: 18px;
+}
+
+.collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+.collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+}
+
+.acc_link:hover {
+    text-decoration: underline;
+}
+
+.acc_num {
+    font-size: 18px;
+}
+
+#collapseacc_CareRepairTwo .card-body p i {
+    color: #333;
+}
+
+.acc_table .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.acc_table .table-striped tbody tr:nth-of-type(even),
+.acc_table thead {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.acc_table .table-bordered th,
+.acc_table .table-bordered td {
+    border-color: #c7c7c7;
+}
+
+.acc_table thead th {
+    letter-spacing: .3px;
+    border-bottom: 0;
+}
+
+.faq_topic li a i {
+    font-size: 40px;
+    width: 40px;
 }

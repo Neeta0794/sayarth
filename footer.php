@@ -77,6 +77,7 @@
 <!-- Product Slider -->
 <script src="assets/js/owl.carousel.min.js"></script>
 
+<script src="assets/js/sticky-sidebar-scroll.min.js"></script>
 <script src="assets/js/custom.js"></script>
 
 </body>

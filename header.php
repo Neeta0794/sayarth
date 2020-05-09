@@ -185,7 +185,7 @@
                                                     <div class="sub-menu py-4 px-lg-0 position_rel">
                                                         <ul class="dropdown-headers list-unstyled px-4">
                                                             <li>
-                                                                <a href="#">FAQs</a>
+                                                                <a href="faq.php">FAQ</a>
                                                             </li>
                                                         </ul>
                                                     </div>
